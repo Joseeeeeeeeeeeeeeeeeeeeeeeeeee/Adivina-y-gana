@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong-position {
+    background-color: yellow;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}

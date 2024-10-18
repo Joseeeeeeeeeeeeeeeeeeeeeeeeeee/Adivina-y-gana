@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Combo del Día</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Incluye jQuery para el QR -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script> <!-- Script de QR -->
+</head>
+<body>
+    <div id="game-container">
+        <h1>El Combo del Día</h1>
+        <div id="board"></div>
+        <input type="text" id="guess" maxlength="5" placeholder="Ingresa tu palabra">
+        <button id="submit">Enviar</button>
+        <div id="message"></div>
+        <div id="qr-code"></div> <!-- Para mostrar el código QR -->
+    </div>
+    <script src="script.js"></script> <!-- Enlaza el archivo JavaScript -->
+</body>
+</html>
